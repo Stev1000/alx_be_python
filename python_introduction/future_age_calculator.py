@@ -1,6 +1,6 @@
 
 # Prompt user for their current age
-current_age = int(input("How old are you? "))
+current_age = int(input("How old are you?"))
 
 # Calculate age in 2050
 age_in_2050 = current_age + 27
