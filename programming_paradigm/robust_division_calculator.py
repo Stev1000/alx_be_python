@@ -1,20 +1,20 @@
 def safe_divide(numerator, denominator):
     """Perform division with error handling."""
     try:
-        # Convert inputs to float
+        # Convert inputs to float for division
         num = float(numerator)
         denom = float(denominator)
         
-        # Perform the division
+        # Perform the division and return the result
         return num / denom
     
     except ZeroDivisionError:
-        # Ensure the exact error message is returned
+        # Exact error message for division by zero
         return "Error: Cannot divide by zero."
     
     except ValueError:
-        # Handle non-numeric inputs
-        return "Error: Please enter valid numeric values only."
+        # Exact error message for non-numeric input
+        return "Error: Please enter numeric values only."  # Ensure this matches the expected message
 
 # Example usage
 if __name__ == "__main__":
